@@ -17,12 +17,12 @@ st.set_page_config(
 layout="wide",  
 initial_sidebar_state="auto",
 page_title= "Credit Scoring Model",  
-page_icon= "2.png", 
+page_icon= "Images/2.png", 
 )
 
 
-main_bg = "Backs.png"
-main_bg_ext = "Backs.png"
+main_bg = "Images/Backs.png"
+main_bg_ext = "Images/Backs.png"
 
 
 st.markdown(
@@ -39,7 +39,7 @@ st.markdown(
 
 
 
-st.sidebar.image("logo.png",  width = 350)
+st.sidebar.image("Images/logo.png",  width = 350)
 
 
 st.sidebar.write(""" <p style=" color:#1567e8; font-size: 30px; font-weight:bold"> User Input Features </p>
