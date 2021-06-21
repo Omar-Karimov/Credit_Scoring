@@ -42,8 +42,7 @@ st.markdown(
 st.sidebar.image("Images/logo.png",  width = 350)
 
 
-st.sidebar.write(""" <p style=" color:#1567e8; font-size: 30px; font-weight:bold"> User Input Features </p>
-  """, unsafe_allow_html=True)
+
 
 
 # Collects user input features into dataframe
